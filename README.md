@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+Step1:
+1. Step up the library ( Nextjs, Tailwind Css, Shadcn)
+2. Create a assests folder which consists all the icons in the app directory
+3. added the font variable in the layout.tsx ( default font is inter if the project required any extra font add the variable in the layout.tsx wich reflect all over the project)
+4. 
