@@ -1,3 +1,5 @@
+import DashboardLayout from "./page";
+
 export default function RootLayout({
   children,
 }: Readonly<{

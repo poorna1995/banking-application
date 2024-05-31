@@ -1,0 +1,24 @@
+import React from "react";
+
+export default function HeaderBox({
+  type = "title",
+  title,
+  user,
+  description,
+}: HeaderBoxProps) {
+  return (
+    <div className="header-box">
+      <h1 className="header-box-title">
+        {title}
+
+        {type === "greeting" && (
+          <span className="text-blue-600">
+            &nbsp;
+            {user}
+          </span>
+        )}
+      </h1>
+      <p className="header-box-subtext"> {description}</p>
+    </div>
+  );
+}
