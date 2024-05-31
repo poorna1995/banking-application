@@ -29,10 +29,10 @@ declare type User = {
   $id: string;
   email: string;
   userId: string;
-  dwollaCustomerUrl: string;
-  dwollaCustomerId: string;
   firstName: string;
   lastName: string;
+  dwollaCustomerUrl: string;
+  dwollaCustomerId: string;
   address1: string;
   city: string;
   state: string;
@@ -218,7 +218,7 @@ declare interface RightSidebarProps {
   banks: Bank[] & Account[];
 }
 
-declare interface SiderbarProps {
+declare interface SidebarProps {
   user: User;
 }
 
